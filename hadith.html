@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sahaba - Hadith Platform for Muslims</title>
+    <!-- GOOGLE FONTS LINK -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Metrophobic&display=swap"
+      rel="stylesheet"
+    />
+    <!-- GOOGLE FONTS POPPINS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- google icons -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Material+Icons+Outlined"
+      rel="stylesheet"
+    />
+
+    <!-- CUSTOM CSS LINK -->
+    <link rel="stylesheet" href="src/css/style.css" />
+  </head>
+  <body>
+    <div class="hadith_pop">
+      <div class="header">
+        <a href="index.html">Sahaba</a>
+
+        <div class="action_btns">
+          <button class="savePhotoBtn">
+            <span class="material-icons-outlined"> photo_camera </span>
+          </button>
+          <button><span class="material-icons-outlined"> share </span></button>
+          <button class="copybtn">
+            <span class="material-icons-outlined"> content_copy </span>
+          </button>
+        </div>
+      </div>
+      <div class="hadith_text">
+        <!-- <p class="auther">Narrated Abu Huraira:</p> -->
+        <p class="content"></p>
+        <p class="frombook">(Sahih Al-Bukhari, 26)</p>
+      </div>
+
+      <div class="action_slide_btns">
+        <button class="left_btn">
+          <span class="material-icons-outlined"> arrow_circle_left </span>
+        </button>
+        <button class="homeBtn">
+          <span class="material-icons-outlined"> home </span>
+        </button>
+        <button class="right_btn">
+          <span class="material-icons-outlined"> arrow_circle_right </span>
+        </button>
+      </div>
+    </div>
+
+    <!-- COPY TEXT POPUP -->
+    <div class="copy_popup">
+      <p>Copy To Clipboard</p>
+    </div>
+
+    <!-- DOWNLOAD BG -->
+    <div class="download_bg">
+      <p class="download_content"></p>
+    </div>
+    <!-- CANVAS BLOG LINK -->
+    <!-- <script src="src/js/canvas-toBlob.js"></script> -->
+    <!-- File sever link -->
+    <script src="src/js/FileSaver.js"></script>
+    <!-- HTML TO CANVAS -->
+    <script src="src/js/html2canvas.js"></script>
+    <!-- CUSTOM JS LINK -->
+    <script src="src/js/script.js"></script>
+    <script src="src/js/hadith.js"></script>
+  </body>
+</html>
